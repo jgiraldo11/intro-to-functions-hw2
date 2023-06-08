@@ -3,6 +3,8 @@
 // Return the cost of gas for this trip at $0.15 per mile
 //Bonus: return the cost of gas for the trip using $3.64 per gallon at 28 mpg
 
+console.log("-------------Question 1---------------")
+
 function odometerReading(start,end) {
     const result = (end - start) * 0.15;
     return result;
@@ -18,6 +20,8 @@ function odometerReading(start,end) {
       const totalCost = trip1(3.64,28);
       console.log(totalCost);
 
+console.log("-------------Question 2---------------")
+
 //Multiply three numbers
 //Three parameters: num1, num2, num3
 //Return the product of these 3 numbers
@@ -30,6 +34,8 @@ function threeParam(num1,num2,num3){
     const totalMulti = threeParam(12,5,14)
     console.log(totalMulti);
 
+    console.log("-------------Question 3---------------")
+
 //Cone Calculator
 //Two parameters: radius and height
 //Return the volume of a cone with these conditions
@@ -40,6 +46,8 @@ function twoParam(radius,height) {
 };
     const totalConeVol = twoParam(23,36);
     console.log(totalConeVol);
+
+    console.log("-------------Question 4---------------")    
 
 //Summation sentence
 //Two parameters: num1 and num2
@@ -64,6 +72,8 @@ function sumSentence(num4,num5){
     }
         const allPrint2 = sumSentence2(46,95)
 
+console.log("-------------Question 2---------------")
+
 //Remainder Calculator
 //Two parameters: numerator and divisor
 //Return the remainder from dividing numerator by divisor - NOT THE RESULT
@@ -75,6 +85,8 @@ function remainderCal(num,divi) {
     const diviAmount = remainderCal(12,6);
         console.log(diviAmount)
 
+console.log("-------------Question 5---------------")
+
 //Banana Picker
 //One parameter: quantity
 //Return a string of quantity number of “:banana:”s
@@ -82,12 +94,14 @@ function remainderCal(num,divi) {
 //return a similar string but with the emoji argument
 //(try this with a multi-character string too to see how it behaves)
 
-    function bananaPicker (quantity = 15, emoji = "🐙") {
+    function bananaPicker (quantity = 15, emoji = "🐘") {
         const bananaAmount = emoji.repeat(quantity);
         return bananaAmount
     }
         const bananaTotal = bananaPicker (2,"🪿");
         console.log(bananaTotal)
+
+console.log("-------------Question 6---------------")
 
 //Name Concatenator
 //Two parameters: first name and last name
@@ -99,9 +113,10 @@ function nameCon(first,middle,last) {
     const allName = last + middle + first;
     return allName
 }
-    const theirName = nameCon("Anna","Lee","Rose");
+    const theirName = nameCon("Jeniffer"," ","Giraldo");
     console.log(theirName);
 
+console.log("-------------Question 6---------------")
 
 //String Length
 //One parameter: string to be measured
