@@ -9,7 +9,7 @@ function odometerReading(start,end) {
     const result = (end - start) * 0.15;
     return result;
  }
-     const costperMile = odometerReading(65,120);
+     const costperMile = odometerReading(67,135);
      console.log(costperMile);
  
  
@@ -17,7 +17,7 @@ function odometerReading(start,end) {
      const costmpg= cost * miles
      return costmpg
   };
-      const totalCost = trip1(3.64,28);
+      const totalCost = trip1(5.60,24);
       console.log(totalCost);
 
 console.log("-------------Question 2---------------")
@@ -31,7 +31,7 @@ function threeParam(num1,num2,num3){
     const threeMulti = num1 * num2 * num3;
     return threeMulti
 };
-    const totalMulti = threeParam(12,5,14)
+    const totalMulti = threeParam(17,4,12)
     console.log(totalMulti);
 
     console.log("-------------Question 3---------------")
@@ -39,12 +39,13 @@ function threeParam(num1,num2,num3){
 //Cone Calculator
 //Two parameters: radius and height
 //Return the volume of a cone with these conditions
+//Formula: https://www.google.com/search?q=volume+of+a+cone
 
 function twoParam(radius,height) {
     const coneVolume = (Math.PI * radius * radius * height)/ 3;
     return coneVolume
 };
-    const totalConeVol = twoParam(23,36);
+    const totalConeVol = twoParam(21,39);
     console.log(totalConeVol);
 
     console.log("-------------Question 4---------------")    
@@ -61,7 +62,7 @@ function sumSentence(num4,num5){
     const printSentence = "The sum of " + num4 + " and " + num5 + " is " + addSentence;
     return printSentence
 }
-    const allPrint = sumSentence(46,95)
+    const allPrint = sumSentence(47,92)
     console.log(allPrint)
 
     function sumSentence2(num4,num5){
@@ -70,9 +71,9 @@ function sumSentence(num4,num5){
         return printSentence2
         console.log(allPrint)
     }
-        const allPrint2 = sumSentence2(46,95)
+        const allPrint2 = sumSentence2(50,51)
 
-console.log("-------------Question 2---------------")
+console.log("-------------Question 5---------------")
 
 //Remainder Calculator
 //Two parameters: numerator and divisor
@@ -82,10 +83,10 @@ function remainderCal(num,divi) {
     const totalDivi = num % divi;
     return totalDivi
 }
-    const diviAmount = remainderCal(12,6);
+    const diviAmount = remainderCal(45,5);
         console.log(diviAmount)
 
-console.log("-------------Question 5---------------")
+console.log("-------------Question 6---------------")
 
 //Banana Picker
 //One parameter: quantity
@@ -94,14 +95,15 @@ console.log("-------------Question 5---------------")
 //return a similar string but with the emoji argument
 //(try this with a multi-character string too to see how it behaves)
 
-    function bananaPicker (quantity = 15, emoji = "🐘") {
+    function bananaPicker (quantity = 10, emoji = "🐘") {
         const bananaAmount = emoji.repeat(quantity);
         return bananaAmount
     }
-        const bananaTotal = bananaPicker (2,"🪿");
+        const bananaTotal = bananaPicker (10,"🐘");
         console.log(bananaTotal)
+    
 
-console.log("-------------Question 6---------------")
+console.log("-------------Question 7---------------")
 
 //Name Concatenator
 //Two parameters: first name and last name
@@ -116,7 +118,7 @@ function nameCon(first,middle,last) {
     const theirName = nameCon("Jeniffer"," ","Giraldo");
     console.log(theirName);
 
-console.log("-------------Question 6---------------")
+console.log("-------------Question 8---------------")
 
 //String Length
 //One parameter: string to be measured
