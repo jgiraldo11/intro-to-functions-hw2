@@ -95,11 +95,11 @@ console.log("-------------Question 6---------------")
 //return a similar string but with the emoji argument
 //(try this with a multi-character string too to see how it behaves)
 
-    function bananaPicker (quantity = 10, emoji = "🐘") {
+    function bananaPicker (quantity = 10, emoji = "🍌") {
         const bananaAmount = emoji.repeat(quantity);
         return bananaAmount
     }
-        const bananaTotal = bananaPicker (10,"🐘");
+        const bananaTotal = bananaPicker (10,"🍌");
         console.log(bananaTotal)
     
 
