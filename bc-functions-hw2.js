@@ -45,7 +45,7 @@ function twoParam(radius,height) {
     const coneVolume = (Math.PI * radius * radius * height)/ 3;
     return coneVolume
 };
-    const totalConeVol = twoParam(21,39);
+    const totalConeVol = twoParam(23,36);
     console.log(totalConeVol);
 
     console.log("-------------Question 4---------------")    
