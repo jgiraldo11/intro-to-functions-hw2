@@ -9,7 +9,7 @@ function odometerReading(start,end) {
     const result = (end - start) * 0.15;
     return result;
  }
-     const costperMile = odometerReading(67,135);
+     const costperMile = odometerReading(65,120);
      console.log(costperMile);
  
  
@@ -73,7 +73,7 @@ function sumSentence(num4,num5){
     }
         const allPrint2 = sumSentence2(50,51)
 
-console.log("-------------Question 5---------------")
+console.log("-------------Question 5---------------") 
 
 //Remainder Calculator
 //Two parameters: numerator and divisor
